@@ -3,6 +3,7 @@ extends Node2D
 var max_viewport_position: Vector2
 
 func _ready():
+	_print_window_min_max("ON READY")
 	print("window size ON START READY: ", DisplayServer.window_get_size())
 	# SEE ME: Uncommenting this will set the max size correctly, and the window will look good.
 #	_disable_window_scale()
@@ -29,11 +30,18 @@ func _set_window_scales():
 	if !SCALE_ENABLED:
 		_disable_window_scale()
 
+func _print_window_min_max(debug_str_in: String):
+	print("Print at ", debug_str_in)
+	print(debug_str_in, "::DisplayServer.window_get_max_size(): ", DisplayServer.window_get_max_size())
+	print(debug_str_in, "::DisplayServer.window_get_min_size((): ", DisplayServer.window_get_min_size())
+
 func _disable_window_scale():
 	print("_disable_window_scale")
 	print("DisplayServer.window_get_size()", DisplayServer.window_get_size())
+	_print_window_min_max("PRE SET MIN MAX")
 	DisplayServer.window_set_max_size(DisplayServer.window_get_size())
 	DisplayServer.window_set_min_size(DisplayServer.window_get_size())
+	_print_window_min_max("POST SET MIN MAX")
 
 func _set_window_scale(window_scale_in:int):
 	print("window size BEFORE set:", DisplayServer.window_get_size())

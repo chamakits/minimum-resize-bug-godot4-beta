@@ -2,30 +2,57 @@
 Godot Engine v4.0.beta8.official.45cac42c0 - https://godotengine.org
 Vulkan API 1.2.231 - Using Vulkan Device #0: Intel - Intel(R) Iris(TM) Plus Graphics
  
+Print at ON READY
+ON READY::DisplayServer.window_get_max_size(): (0, 0)
+ON READY::DisplayServer.window_get_min_size((): (64, 64)
 window size ON START READY: (288, 176)
 original_window_size: (288, 176)
 window size BEFORE set:(288, 176)
 window size AFTER set:(2016, 1232)
 _disable_window_scale
 DisplayServer.window_get_size()(2016, 1232)
+Print at PRE SET MIN MAX
+PRE SET MIN MAX::DisplayServer.window_get_max_size(): (0, 0)
+PRE SET MIN MAX::DisplayServer.window_get_min_size((): (64, 64)
+Print at POST SET MIN MAX
+POST SET MIN MAX::DisplayServer.window_get_max_size(): (2016, 1232)
+POST SET MIN MAX::DisplayServer.window_get_min_size((): (2016, 1232)
 Ready sub node.
 window size ON END READY: (2016, 1232)
 Ready main.
+Print at ON READY
+ON READY::DisplayServer.window_get_max_size(): (2016, 1232)
+ON READY::DisplayServer.window_get_min_size((): (2016, 1232)
 window size ON START READY: (2016, 1232)
 original_window_size: (2016, 1232)
 window size BEFORE set:(2016, 1232)
 window size AFTER set:(2016, 1232)
 _disable_window_scale
 DisplayServer.window_get_size()(2016, 1232)
+Print at PRE SET MIN MAX
+PRE SET MIN MAX::DisplayServer.window_get_max_size(): (2016, 1232)
+PRE SET MIN MAX::DisplayServer.window_get_min_size((): (2016, 1232)
+Print at POST SET MIN MAX
+POST SET MIN MAX::DisplayServer.window_get_max_size(): (2016, 1232)
+POST SET MIN MAX::DisplayServer.window_get_min_size((): (2016, 1232)
 Ready sub node.
 window size ON END READY: (2016, 1232)
 Ready main.
+Print at ON READY
+ON READY::DisplayServer.window_get_max_size(): (2016, 1232)
+ON READY::DisplayServer.window_get_min_size((): (2016, 1232)
 window size ON START READY: (2016, 1232)
 original_window_size: (2016, 1232)
 window size BEFORE set:(2016, 1232)
 window size AFTER set:(2016, 1232)
 _disable_window_scale
 DisplayServer.window_get_size()(2016, 1232)
+Print at PRE SET MIN MAX
+PRE SET MIN MAX::DisplayServer.window_get_max_size(): (2016, 1232)
+PRE SET MIN MAX::DisplayServer.window_get_min_size((): (2016, 1232)
+Print at POST SET MIN MAX
+POST SET MIN MAX::DisplayServer.window_get_max_size(): (2016, 1232)
+POST SET MIN MAX::DisplayServer.window_get_min_size((): (2016, 1232)
 Ready sub node.
 window size ON END READY: (2016, 1232)
 Ready main.
