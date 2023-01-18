@@ -4,7 +4,7 @@ var max_viewport_position: Vector2
 
 func _ready():
 	print("window size ON START READY: ", DisplayServer.window_get_size())
-	# Uncommenting this will set the max size correctly, and the window will look good.
+	# SEE ME: Uncommenting this will set the max size correctly, and the window will look good.
 #	_disable_window_scale()
 	_setup_viewport()
 	_set_window_scales()
@@ -24,6 +24,7 @@ var window_scale: int = 7
 const SCALE_ENABLED = false
 func _set_window_scales():
 	original_window_size = DisplayServer.window_get_size()
+	print("original_window_size: ", original_window_size)
 	_set_window_scale(window_scale)
 	if !SCALE_ENABLED:
 		_disable_window_scale()

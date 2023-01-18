@@ -1,0 +1,31 @@
+--- Debugging process started ---
+Godot Engine v4.0.beta8.official.45cac42c0 - https://godotengine.org
+Vulkan API 1.2.231 - Using Vulkan Device #0: Intel - Intel(R) Iris(TM) Plus Graphics
+ 
+window size ON START READY: (288, 176)
+original_window_size: (288, 176)
+window size BEFORE set:(288, 176)
+window size AFTER set:(2016, 1232)
+_disable_window_scale
+DisplayServer.window_get_size()(2016, 1232)
+Ready sub node.
+window size ON END READY: (2016, 1232)
+Ready main.
+window size ON START READY: (2016, 1232)
+original_window_size: (2016, 1232)
+window size BEFORE set:(2016, 1232)
+window size AFTER set:(2016, 1232)
+_disable_window_scale
+DisplayServer.window_get_size()(2016, 1232)
+Ready sub node.
+window size ON END READY: (2016, 1232)
+Ready main.
+window size ON START READY: (2016, 1232)
+original_window_size: (2016, 1232)
+window size BEFORE set:(2016, 1232)
+window size AFTER set:(2016, 1232)
+_disable_window_scale
+DisplayServer.window_get_size()(2016, 1232)
+Ready sub node.
+window size ON END READY: (2016, 1232)
+Ready main.
