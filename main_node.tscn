@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dptkiovmsq82x"]
+
+[ext_resource type="Script" path="res://MainNode.gd" id="1_3hkqf"]
+[ext_resource type="PackedScene" uid="uid://cq3aosfirhi82" path="res://sub_node.tscn" id="2_bv8tp"]
+[ext_resource type="Texture2D" uid="uid://bj587al3ljn2t" path="res://icon.svg" id="3_pye2g"]
+
+[node name="MainNode" type="Node2D"]
+script = ExtResource("1_3hkqf")
+
+[node name="SubNode" parent="." instance=ExtResource("2_bv8tp")]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.375, 1.375)
+texture = ExtResource("3_pye2g")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 249.0
+offset_right = 289.0
+offset_bottom = 40.0
